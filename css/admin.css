@@ -1,0 +1,247 @@
+.admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/admin/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px 0;
+    min-height: 100vh;
+}
+
+.admin > div {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    justify-content: space-between;
+}
+
+.admin-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-form-1 {
+    margin-right: 150px; 
+}
+
+.admin-form-1 > input {
+    margin: 0;
+    height: 100%;
+    font-size: 15px;
+    padding: 6px 15px;
+}
+
+.admin-form-1 > input:nth-of-type(1) {
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: inset 2px 2px 30px rgba(0, 0, 0, 0.25);
+    border: 1px solid #478ECC;
+    width: 40vw;
+}
+
+.admin-form-1 > input:nth-of-type(2) {
+    background-color: #478ECC;
+    color: white;
+    border-right: none;
+    cursor: pointer;
+    border: 1px solid #478ECC;
+    border-left: none;
+    box-sizing: border-box;
+}
+
+.admin-form-1 > input:nth-of-type(2):hover {
+    background-color: white;
+    color: #478ECC;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.admin-form-2 > input {
+    background-color: #478ECC;
+    color: white;
+    padding: 8px 39px;
+    border-right: none;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+.admin-form-2 > input:hover {
+    background-color: white;
+    color: #478ECC;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.admin-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-title {
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.admin-tiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin-tiles > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #478ECC;
+    margin-right: 20px;
+    height: 16vh;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat-Regular";
+    cursor: pointer;
+    transition: 1s;
+}
+
+.tile > span {
+    margin-top: 10px;
+}
+
+.tile > div {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30%;
+    background-size: contain;
+}
+
+.tile:hover {
+    background-color: white;
+    color: #478ECC;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.tile-3,
+.tile-6,
+.tile-9 {
+    margin-right: 0 !important;
+}
+
+.tile-img-1 {
+    background-image: url("../img/admin/tile-1.png");
+    transition: .5s;
+}
+
+.tile-img-2 {
+    background-image: url("../img/admin/tile-2.png");
+    transition: .5s;
+}
+
+.tile-img-3 {
+    background-image: url("../img/admin/tile-3.png");
+    transition: .5s;
+}
+
+.tile-img-4 {
+    background-image: url("../img/admin/tile-4.png");
+    transition: .5s;
+}
+
+.tile-img-5 {
+    background-image: url("../img/admin/tile-5.png");
+    transition: .5s;
+}
+
+.tile-img-6 {
+    background-image: url("../img/admin/tile-6.png");
+    transition: .5s;
+}
+
+.tile-img-7 {
+    background-image: url("../img/admin/tile-7.png");
+    transition: .5s;
+}
+
+.tile-img-8 {
+    background-image: url("../img/admin/tile-8.png");
+    transition: .5s;
+}
+
+.tile-img-9 {
+    background-image: url("../img/admin/tile-9.png");
+    transition: .5s;
+}
+
+
+.tile-1:hover .tile-img-1 {
+    background-image: url("../img/admin/tile-1-blue.png");
+    transition: .5s;
+}
+
+.tile-2:hover .tile-img-2 {
+    background-image: url("../img/admin/tile-2-blue.png");
+    transition: .5s;
+}
+
+.tile-3:hover .tile-img-3 {
+    background-image: url("../img/admin/tile-3-blue.png");
+    transition: .5s;
+}
+
+.tile-4:hover .tile-img-4 {
+    background-image: url("../img/admin/tile-4-blue.png");
+    transition: .5s;
+}
+
+.tile-5:hover .tile-img-5 {
+    background-image: url("../img/admin/tile-5-blue.png");
+    transition: .5s;
+}
+
+.tile-6:hover .tile-img-6 {
+    background-image: url("../img/admin/tile-6-blue.png");
+    transition: .5s;
+}
+
+.tile-7:hover .tile-img-7 {
+    background-image: url("../img/admin/tile-7-blue.png");
+    transition: .5s;
+}
+
+.tile-8:hover .tile-img-8 {
+    background-image: url("../img/admin/tile-8-blue.png");
+    transition: .5s;
+}
+
+.tile-9:hover .tile-img-9 {
+    background-image: url("../img/admin/tile-9-blue.png");
+    transition: .5s;
+}
+
+.admin-3 > div:nth-of-type(1) {
+    background: linear-gradient(to right, rgba(0, 0, 0, .7), white, rgba(0, 0, 0, .7));
+    width: 100%;
+    margin: 20px;
+    height: 1px;
+}
+
+.admin-3 > div:nth-of-type(2)  {
+    font-family: "Montserrat-Regular";
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}

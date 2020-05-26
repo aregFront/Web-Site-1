@@ -1,0 +1,219 @@
+.home {
+    background-image: url('../img/home/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    color: white;
+    display: flex;
+    font-family: "Montserrat";
+    background-color: rgba(71, 142, 205, .7);
+    justify-content: center;
+    align-items: center;
+}
+
+header > span {
+    padding: 20px 40px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+header > span:hover {
+    background-color: #e3e1e6;
+    color: rgb(71, 142, 205);
+    transition: .5s;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat-Regular";
+    margin: 3.95%;
+}
+
+main > div {
+    width: 50%;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 20px;
+    color: white;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main-textarea {
+    font-family: "Montserrat";
+    border: 1px solid #478ECC;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: inset 2px 2px 30px rgba(0, 0, 0, 0.25);
+    outline: none;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    resize: none;
+    text-decoration: none;
+}
+
+.main-submit {
+    font-family: "Montserrat";
+    background-color: rgb(71, 142, 205);
+    padding: 10px 55px;
+    border: none;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-submit:hover {
+    background-color: white;
+    color: rgb(71, 142, 205);
+    transition: .5s;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: rgb(71, 142, 205, .7);
+    padding-left: 25%;
+    padding-right: 20%;
+}
+
+footer > div {
+    font-family: "Montserrat";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1-1 {
+    display: flex;
+    flex-direction: column;
+    width: 31.8%;
+}
+
+.footer-title {
+    font-family: "Montserrat-Regular";
+    font-size: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form > * {
+    margin-bottom: 10px;
+}
+
+.footer-text-input {
+    border: none;
+    outline: none;
+    border: 1px solid #478ECC;
+    font-family: "Montserrat";
+    background-color: rgba(230, 230, 230, .8);
+    padding: 5px;
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #478ECC;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #478ECC;
+}
+  
+::placeholder {
+    color: #478ECC;
+}
+
+  .footer-submit {
+    font-family: "Montserrat";
+    border: none;
+    outline: none;
+    color: #478ECC;
+    width: 70%;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: auto;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .footer-submit:hover {
+    background-color: rgb(71, 142, 205);
+    color: white;
+    transition: .5s;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.footer-1-2 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contacts > * {
+    margin-bottom: 10px;
+}
+
+.footer-2 {
+    background: linear-gradient(to right, rgba(71, 142, 205, .7), white, rgba(71, 142, 205, .7));
+    width: 100%;
+    margin: 20px;
+    height: 1px;
+}
+
+.footer-3 {
+    font-family: "Montserrat-Regular";
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (min-height: 700px) {
+    .home {
+        /* height: unset; */
+    }
+
+    .home > div {
+        height: unset;
+    }
+}

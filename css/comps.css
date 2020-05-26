@@ -1,0 +1,156 @@
+.comps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/comps/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px 0;
+    min-height: 100vh;
+}
+
+.comps > div {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+    justify-content: space-between;
+}
+
+.comps-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comps-form-1 {
+    margin-right: 150px; 
+}
+
+.comps-form-1 > input {
+    margin: 0;
+    height: 100%;
+    font-size: 15px;
+    padding: 6px 15px;
+}
+
+.comps-form-1 > input:nth-of-type(1) {
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: inset 2px 2px 30px rgba(0, 0, 0, 0.25);
+    border: 1px solid #478ECC;
+    width: 40vw;
+}
+
+.comps-form-1 > input:nth-of-type(2) {
+    background-color: #478ECC;
+    color: white;
+    border-right: none;
+    cursor: pointer;
+    border: 1px solid #478ECC;
+    box-sizing: border-box;
+    border-left: none;
+}
+
+.comps-form-1 > input:nth-of-type(2):hover {
+    background-color: white;
+    color: #478ECC;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.comps-form-2 > input {
+    background-color: #478ECC;
+    color: white;
+    padding: 8px 39px;
+    border-right: none;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+.comps-form-2 > input:hover {
+    background-color: white;
+    color: #478ECC;
+    border-left: none;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.comps-2 {
+    margin-top: 40px;
+}
+
+.comps-2 > div {
+    display: flex;
+    width: 100%;
+}
+
+.comps-tile {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: inset 2px 2px 30px rgba(0, 0, 0, 0.25);
+    padding: 21px;
+    margin: 0 10px 10px 0;
+    box-sizing: border-box;
+    font-size: 0.8125vw;
+    width: 25%;
+}
+
+.comps-tile:nth-of-type(4) {
+    margin-right: 0 !important;
+}
+
+.comps-2 > div:nth-of-type(6) > .comps-tile {
+    margin-bottom: 0 !important;
+}
+
+.comps-tile > span {
+    margin-bottom: 5px !important;
+}
+
+.comps-title-blue {
+    color: #478ECC;
+    font-size: 0.8vw !important;
+    margin-right: 10px;
+}
+
+.comps-tile-text > span:nth-of-type(2) {
+    font-size: 0.9vw;
+}
+
+.comps-tile-button {
+    font-family: "Montserrat";
+    background-color: rgb(71, 142, 205);
+    padding: 5px 20px;
+    border: none;
+    margin: 0;
+    font-size: 0.875;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.comps-tile-button:hover {
+    background-color: white;
+    color: rgb(71, 142, 205);
+    transition: .5s;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.comps-3 > div:nth-of-type(1) {
+    background: linear-gradient(to right, rgba(71, 142, 205, .7), white, rgba(71, 142, 205, .7));
+    width: 100%;
+    margin: 40px 0 20px 0;
+    height: 1px;
+}
+
+.comps-3 > div:nth-of-type(2) {
+    font-family: "Montserrat-Regular";
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
